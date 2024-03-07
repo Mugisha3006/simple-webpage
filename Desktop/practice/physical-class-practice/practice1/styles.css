@@ -1,0 +1,53 @@
+h3{
+    color: #f6b364;
+    font-size: 30px;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+
+}
+
+span{
+    color: #171664;
+}
+
+h1{
+    width: 50%;
+    font-size: 65px;
+    text-transform:capitalize ;
+}
+
+div :first-child{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+}
+
+img{
+    border-radius: 15%;
+    height: 50%;
+}
+
+.container1{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+
+}
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    body{
+
+        background-color : orange;
+    }
+}
+       
